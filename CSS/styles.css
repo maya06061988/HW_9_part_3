@@ -1,0 +1,134 @@
+.head-block {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+}
+
+.Mail-img {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    gap: 3px;
+}
+
+.User-img {
+    display: flex;
+    margin: 15px;
+    justify-content: end;
+    align-items: center;
+    gap: 3px;
+}
+
+.wrapper {
+    margin: 15px;
+}
+
+.menu {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.menu:hover {
+    background-color: rgba(244, 228, 228, 0.62);
+    transition: 0.7s ease-in;
+    cursor: pointer;
+}
+
+.img-1 {
+    width: 30%;
+   
+}
+
+.img-2 {
+    width: 15%;
+
+}
+
+.star-1 {
+    width: 3%;
+}
+
+.line-1 {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+   }
+
+.mail-block {
+    padding: 15px;
+    width: 80%;
+}
+
+.conteiner {
+    display: flex;
+}
+
+.star-1 {
+    width: 40%;
+    position: absolute;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.star-2 {
+    width: 40%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.whom {
+    width: 20%;
+    padding-left: 5px;
+}
+
+.adress {
+    width: 30%;
+    padding-left: 5px;
+}
+
+.text-block {
+    display: flex;
+    width: 80%;
+}
+.text {
+    width: 55%;
+    color: gray;
+    padding-left: 5px;
+}
+.attach img
+ {
+    width: 45%;
+}
+
+
+.attach {
+    width: 5%;
+    text-align: center;
+}
+
+.date {
+    width: 10%;
+}
+
+.img-conteiner {
+    width: 5%;
+    position: relative;
+    display: inline-block;
+}
+
+.img-conteiner:hover .star-1 {
+    opacity: 0;
+}
+
+.img-conteiner:hover .star-2 {
+    opacity: 1;
+}
